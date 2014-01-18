@@ -11,6 +11,5 @@ The external dependencies are checked in currently:
 
 - SmartExtensionAPI / SmartExtensionUtils are projects from the SmartExtension API by Sony
 
-Check current development status here:
-
-https://trello.com/board/smarttransport/50fd05c56696399670003669
+forked for adding favorites in preferences and show only departures on favorite stations (so you can check if you need to hurry when you need to switch trains or from train to bus...)
+playstore version will be available free when ready
