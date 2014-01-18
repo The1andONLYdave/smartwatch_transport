@@ -13,3 +13,15 @@ The external dependencies are checked in currently:
 
 forked for adding favorites in preferences and show only departures on favorite stations (so you can check if you need to hurry when you need to switch trains or from train to bus...)
 playstore version will be available free when ready
+
+TODO:
+acra server adding
+maybe change icon
+set favorites in prefs
+check fav when setting
+what about donate option
+change feedback and about
+
+changelog:
+non real acra data added
+added libs for building
