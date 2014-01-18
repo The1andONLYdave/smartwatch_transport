@@ -65,9 +65,10 @@ public class SmartTransportApplication extends Application {
 	@Override
 	public void onCreate() {
 		ACRAConfiguration config=ACRA.getNewDefaultConfig(this);
-		config.setFormUri(getString(R.string.acra_form_uri));
-		config.setFormUriBasicAuthLogin(getString(R.string.acra_form_user));
-		config.setFormUriBasicAuthPassword(getString(R.string.acra_form_pwd));
+		//config.setFormUri(getString(R.string.acra_form_uri)); TODO:add acra data
+		config.setFormUri("http://github.com/The1andONLYdave");
+		config.setFormUriBasicAuthLogin("user");
+		config.setFormUriBasicAuthPassword("pwd");
 		ACRA.setConfig(config);
 
         if(!isEmulator())

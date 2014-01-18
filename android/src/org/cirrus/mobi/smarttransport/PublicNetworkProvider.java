@@ -32,7 +32,7 @@ package org.cirrus.mobi.smarttransport;
  *   You should have received a copy of the GNU General Public License
  *   along with SmartTransport.  If not, see <http://www.gnu.org/licenses/>.
  */
-
+//sad provider deleted.build problems.readd later //TODO
 import java.io.IOException;
 import java.util.List;
 
