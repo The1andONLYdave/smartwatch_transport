@@ -117,14 +117,14 @@
  * along with SmartTransport.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.dlka.android.apps.smarttransport.PublicNetworkProvider.ResultCallbacks;
 import com.sonyericsson.extras.liveware.extension.util.control.ControlTouchEvent;
 import org.acra.ACRA;
-import org.cirrus.mobi.smarttransport.PublicNetworkProvider.ResultCallbacks;
 
 import android.content.Context;
 import android.content.SharedPreferences;

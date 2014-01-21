@@ -1,4 +1,4 @@
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 /**
  *	 This file is part of SmartTransport
  *
@@ -18,7 +18,7 @@ package org.cirrus.mobi.smarttransport;
 import java.io.IOException;
 import java.util.List;
 
-import org.cirrus.mobi.smarttransport.PublicNetworkProvider.ResultCallbacks;
+import com.dlka.android.apps.smarttransport.PublicNetworkProvider.ResultCallbacks;
 
 import android.app.Activity;
 import android.content.Context;

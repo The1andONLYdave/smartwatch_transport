@@ -49,7 +49,7 @@
  * along with SmartTransport.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 
 import android.os.Build;
 import android.util.Log;

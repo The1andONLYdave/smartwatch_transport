@@ -49,7 +49,7 @@
  * along with SmartTransport.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -62,15 +62,16 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import org.cirrus.mobi.smarttransport.util.IabHelper;
-import org.cirrus.mobi.smarttransport.util.IabResult;
-import org.cirrus.mobi.smarttransport.util.Inventory;
-import org.cirrus.mobi.smarttransport.util.Purchase;
+
+import com.dlka.android.apps.smarttransport.util.IabHelper;
+import com.dlka.android.apps.smarttransport.util.IabResult;
+import com.dlka.android.apps.smarttransport.util.Inventory;
+import com.dlka.android.apps.smarttransport.util.Purchase;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class DonateActivity extends Activity implements OnItemSelectedListener {
+public class FavstationActivity extends Activity implements OnItemSelectedListener {
 
 	private static final String TAG = "DonateActivity";
 	protected static final String[] SKUS = {"sku_donate_smartt_1","sku_donate_smartt_2","sku_donate_smartt_3"};
@@ -79,7 +80,7 @@ public class DonateActivity extends Activity implements OnItemSelectedListener {
 
 	private Spinner mSpinner;
 	private Button mButton;
-	private DonateActivity mContext;
+	private FavstationActivity mContext;
 	private int selectedItem;
 	private Inventory mInventory = null;
 
@@ -116,7 +117,7 @@ public class DonateActivity extends Activity implements OnItemSelectedListener {
 						additionalSkuList.add(SKUS[i]);
 					}
 					mHelper.queryInventoryAsync(true, additionalSkuList, mQueryFinishedListener);
-					progress = ProgressDialog.show(DonateActivity.this, getString(R.string.donate_progress_dialog_title),
+					progress = ProgressDialog.show(FavstationActivity.this, getString(R.string.donate_progress_dialog_title),
 						    getString(R.string.donate_progress_dialog_message), true);
 				}
 
@@ -128,7 +129,7 @@ public class DonateActivity extends Activity implements OnItemSelectedListener {
 			@Override
 			public void onClick(View v) {
 				//start purchase flow
-				mHelper.launchPurchaseFlow(DonateActivity.this, SKUS[selectedItem], REQ_CODE+selectedItem, purchaseListener, "");
+				mHelper.launchPurchaseFlow(FavstationActivity.this, SKUS[selectedItem], REQ_CODE+selectedItem, purchaseListener, "");
 	//			pa.trackEvent("Donate-Start", "Start Purchase", SKUS[selectedItem], 1);
 			}
 
@@ -158,7 +159,7 @@ public class DonateActivity extends Activity implements OnItemSelectedListener {
 
 					donateItems[i] = inventory.getSkuDetails(SKUS[i]).getTitle()+" "+inventory.getSkuDetails(SKUS[i]).getPrice(); 
 				}
-				mAdapter = new ArrayAdapter<String>(DonateActivity.this, R.layout.donate_item, donateItems);
+				mAdapter = new ArrayAdapter<String>(FavstationActivity.this, R.layout.donate_item, donateItems);
 				mSpinner.setAdapter(mAdapter); 
 				mButton.setEnabled(true);
 			}

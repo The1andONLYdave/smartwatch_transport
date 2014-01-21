@@ -90,6 +90,8 @@
     <string name="text_locating">locating...</string>
     <string name="text_loading">loading...</string>
     <string name="pref_publicnetwork_title">Transport Network</string>    
+    <string name="pref_favstation">Favorite Station</string>
+    <string name="pref_setting">Settings</string>
     <string name="pref_donate">Donate</string>
     <string name="pref_about">About</string>
     <string name="pref_feedback">Feedback</string>
@@ -99,11 +101,12 @@
     <string name="pref_publicnetwork">pre_network</string>
     <string name="pref_transportNetwork_default">RtProvider</string>
     <string name="feedback_subject">SmartTransport Feedback</string>
-    <string name="feedback_mailaddress">dominik.helleberg+SmartTrans@gmail.com</string>
+    <string name="feedback_mailaddress">the1andonlydave+SmartTrans@gmail.com</string>
     <string name="feedback_mailsend">Send Mail</string>
     <string name="text_nostations">Ups, no stations found nearby. Click to retry</string>
     <string name="text_selectProvider">Swipe and click to select provider</string>
-    <string name="lkey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz352KXfGipr7Sg7C9t9Wfp4kA6WR5p5Y/pb22eav7ugb0O1qSsHWJgkqYRgPSqqNyJLy274Yvz0CRl36QQUtmCVHLpL8pvLwa8rsaFVvsrAz987bFEWKYmO0npJOjh6ticRfFW9+rw9RwpUMuA6ti1vce5+PqTnBw7VLQxGVq6reSTsKfN6qtUiy0jZHUxnO9wbdAzz+xhdZO+1XHEAlrDwDyIvacCF+8r4DYf/nhMlVEM63wUKVdHKn2Dnwx5AvgS3kdNfFJftz/QTNwTq1eti8yu9vCbE8cVQl18psTaggsS73HWNSLjK+SmijVaKKRDF1WdiRrPyqKeuaxsWk5QIDAQAB</string>
+    <!-- //TODO --> 
+    <string name="lkey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxTtJ4sk312aG1ypZkKwisnN0tqneypu4v8UL+yN6WZPrasqH2d/AFcpGfKm+9xFKoLmDfKTQkqlfQ6heZDEzUCHIxk7WAtVbnNqofU6gfwAmaI2xd7fXgkuCYalzPh3zJQ0+GiR595QYF5TRrB6zhxW167/mofHHoouf3KffFh9kUKay1GCsZryFj4AlQt7LWZ8IS1nTSwB28XSrEnkxuJsaHI0QOQabeOAInVu/zdAe8Bnnsnhrbkphv0UXmcO4VjEtErzEEk9rHbGWWzW/1jOLHNeeEcgch995MT47vVli8BWZ8e41MqYmp8cQRUtjFqjOMxkLLRLHGmvBVL0LDQIDAQAB</string>
     <string name="donate_button_text">Donate!</string>
     <string name="donate_1">small donation: %1s</string>
     <string name="donate_2">donation: %1s</string>
@@ -115,15 +118,19 @@
     <string name="thanks">Thanks!</string>
   
     <string name="donate_text">If you do like the App and want to motivate me keep on developing it, this is the way to go...</string>
+    <string name="title_activity_favstation">Favorite Station</string>
+    <string name="title_activity_setting">Settings</string>
     <string name="title_activity_donate">Thank you!</string>
     <string name="title_activity_about">About</string>
 
     <string name="about">Copyright 2013 Dominik Helleberg\n
-    This program comes with ABSOLUTELY NO WARRANTY; for details click here: \nhttps://github.com/dhelleberg/smartwatch_transport\n
+                 Copyright 2014 David-Lee Kulsch\n
+    This program comes with ABSOLUTELY NO WARRANTY; for details click here: \nhttps://github.com/The1andONLYdave/smartwatch_transport\n
     This is free software, and you are welcome to redistribute it
     under certain conditions;\n\n
     This software uses the great work of Andreas Schildbach by integrating the "public-transport-enabler" lib. \n
-    https://code.google.com/p/public-transport-enabler/\n</string>
+    https://code.google.com/p/public-transport-enabler/\n
+    Thanks to Dominik Helleberg for its great work on making SmartTrans and for making it compatible with SmartWatch 2.\n</string>
     <string name="text_nolocationprovider">Sorry, you have no active location provider!</string>
 
 </resources>

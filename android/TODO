@@ -1,0 +1,25 @@
+TODO
+display control list for stations instead of swyping left or right
+display control list with a favicon on favorite stations you set in prefs as favorites
+adding preference options for setting favstations (maximum 3?)
+making pull request on github.com/d.helleberg/smart_trans
+setting checkbox of disable location and only show saved favstations
+changing donate options to play account
+making option for increase fontsize
+make some explanation text display on first preferences start
+option for getting arrival time (mark favstation as destination station not departure, 
+	and get instead the arrival times to see when your train will be at the station. 
+		then you can select the same favoritestation as departure and get the trains to continue. 
+		for people which trains got a delay to see when there at the switching trainstation and which train can 
+		be used continue their travel is possible at this time.)
+ 
+
+
+
+finish:
+strings.xml
+strings.xml german
+androidmanifest update and rename package com.dlka.android.apps
+credit d.helleberg for its work
+added smartwatch2 xml file for better layout and make text smaller on smartwatch
+Favstation and Settings activities added, but not yet filled with content

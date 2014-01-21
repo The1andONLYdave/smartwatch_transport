@@ -66,7 +66,7 @@
  * along with SmartTransport.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -110,6 +110,14 @@ public class SmartPreferenceActivity extends PreferenceActivity implements OnPre
 		final String network = getNetworkForProvider(providerClass);		
 		transportPreference.setSummary(network);
 		
+		final Preference favstationPreference = getPreferenceManager().findPreference(
+				getString(R.string.pref_favstation));
+		favstationPreference.setOnPreferenceClickListener(this);
+
+        final Preference settingsPreference = getPreferenceManager().findPreference(
+                getString(R.string.pref_setting));
+        settingsPreference.setOnPreferenceClickListener(this);
+
 		final Preference feedbackPreference = getPreferenceManager().findPreference(
 				getString(R.string.pref_feedback));
 		feedbackPreference.setOnPreferenceClickListener(this);
@@ -154,6 +162,22 @@ public class SmartPreferenceActivity extends PreferenceActivity implements OnPre
 
 			return true;
 		}
+		else if(preference.getKey().equals(getString(R.string.pref_favstation)))
+        {
+            if(BuildConfig.DEBUG)
+                Log.v(TAG, "clicked on favstation");
+            Intent intent = new Intent(this, FavstationActivity.class);
+            startActivity(intent);
+            return true;
+        }
+		else if(preference.getKey().equals(getString(R.string.pref_setting)))
+        {
+            if(BuildConfig.DEBUG)
+                Log.v(TAG, "clicked on setting");
+            Intent intent = new Intent(this, SettingActivity.class);
+            startActivity(intent);
+            return true;
+        }
         else if(preference.getKey().equals(getString(R.string.pref_donate)))
         {
             if(BuildConfig.DEBUG)

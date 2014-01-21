@@ -72,6 +72,8 @@
     <string name="text_depature_times">%1$s min (%2$s)</string>
     <string name="text_locating">position...</string>
     <string name="text_loading">laden...</string>
+    <string name="pref_favstation">Favoritisierte Stationen</string>
+    <string name="pref_setting">Einstellungen</string>
     <string name="pref_publicnetwork_title">Verkehrsnetz</string>
     <string name="pref_donate">Spenden</string>
     <string name="pref_about">About</string>
@@ -82,7 +84,7 @@
     <string name="pref_publicnetwork">pre_network</string>
     <string name="pref_transportNetwork_default">RtProvider</string>
     <string name="feedback_subject">SmartTransport Feedback</string>
-    <string name="feedback_mailaddress">dominik.helleberg+SmartTrans@gmail.com</string>
+    <string name="feedback_mailaddress">the1andonlydave+SmartTrans@gmail.com</string>
     <string name="feedback_mailsend">Mail senden</string>
     <string name="text_nostations">Ups, keine Stationen gefunden. Click zur neuen Suche.</string>
     <string name="text_selectProvider">Swipen um anderen Provdider auszuwählen</string>
@@ -94,16 +96,20 @@
 
     <string name="donate_progress_dialog_title">Spendenoptionen...</string>
     <string name="donate_progress_dialog_message">…werden geladen</string>
-    <string name="title_activity_about">About</string>
+    <string name="title_activity_favstation">Favoritisierte Stationen</string>
+    <string name="title_activity_setting">Einstellungen</string>
+    <string name="title_activity_about">Über</string>
 
     <string name="donate_text">Wenn Dir die App gefällt freue ich mich über eine kleine Spende!</string>
 
      <string name="about">Copyright 2013 Dominik Helleberg\n
-    This program comes with ABSOLUTELY NO WARRANTY; for details click here: \nhttps://github.com/dhelleberg/smartwatch_transport\n
+         Copyright 2014 David-Lee Kulsch\n
+    This program comes with ABSOLUTELY NO WARRANTY; for details click here: \nhttps://github.com/The1andONLYdave/smartwatch_transport\n
     This is free software, and you are welcome to redistribute it
     under certain conditions;\n\n
     This software uses the great work of Andreas Schildbach by integrating the "public-transport-enabler" lib. \n
-    https://code.google.com/p/public-transport-enabler/\n</string>
+    https://code.google.com/p/public-transport-enabler/\n
+    Thanks to Dominik Helleberg for its great work on making SmartTrans and for making it compatible with SmartWatch 2.\n</string>
     <string name="text_nolocationprovider">Sorry, Sie erlauben keine Orts-Bestimmung!</string>
 
 

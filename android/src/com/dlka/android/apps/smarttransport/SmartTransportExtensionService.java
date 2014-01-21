@@ -29,7 +29,7 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 
 /**
  *	 This file is part of SmartTransport

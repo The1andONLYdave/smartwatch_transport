@@ -15,7 +15,7 @@
  * along with SmartTransport.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.cirrus.mobi.smarttransport;
+package com.dlka.android.apps.smarttransport;
 /**
  *	 This file is part of SmartTransport
  *

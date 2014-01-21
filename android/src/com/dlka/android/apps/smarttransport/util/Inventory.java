@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.cirrus.mobi.smarttransport.util;
+package com.dlka.android.apps.smarttransport.util;
 
 import java.util.ArrayList;
 import java.util.HashMap;

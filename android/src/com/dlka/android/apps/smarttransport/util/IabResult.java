@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package org.cirrus.mobi.smarttransport.util;
+package com.dlka.android.apps.smarttransport.util;
 
 /**
  * Represents the result of an in-app billing operation.

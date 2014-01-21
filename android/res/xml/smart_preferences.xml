@@ -28,6 +28,14 @@
          />
 
     <Preference
+        android:key="@string/pref_favstation"
+        android:title="@string/pref_favstation" />
+    
+    <Preference
+        android:key="@string/pref_setting"
+        android:title="@string/pref_setting" />
+    
+    <Preference
         android:key="@string/pref_donate"
         android:title="@string/pref_donate" />
 

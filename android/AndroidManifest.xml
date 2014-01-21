@@ -17,7 +17,7 @@
 
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.cirrus.mobi.smarttransport"
+    package="com.dlka.android.apps.smarttransport"
     android:versionCode="18"
     android:versionName="1.4.4" >
 
@@ -36,14 +36,14 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name="org.cirrus.mobi.smarttransport.SmartTransportApplication" >
+        android:name="com.dlka.android.apps.smarttransport.SmartTransportApplication" >
         
         <activity
-            android:name="org.cirrus.mobi.smarttransport.StartUpActivity"
+            android:name="com.dlka.android.apps.smarttransport.StartUpActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.cirrus.mobi.smarttransport.SmartPreferenceActivity"
+            android:name="com.dlka.android.apps.smarttransport.SmartPreferenceActivity"
             android:label="@string/configuration" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,22 +51,29 @@
 
             </intent-filter>
         </activity>
-
+   		<activity
+                android:name="com.dlka.android.apps.smarttransport.FavstationActivity"
+                android:label="@string/title_activity_favstation" >
+        </activity>
         <activity
-                android:name="org.cirrus.mobi.smarttransport.DonateActivity"
+                android:name="com.dlka.android.apps.smarttransport.SettingActivity"
+                android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+                android:name="com.dlka.android.apps.smarttransport.DonateActivity"
                 android:label="@string/title_activity_donate" >
         </activity>
         <activity
-                android:name="org.cirrus.mobi.smarttransport.AboutActivity"
+                android:name="com.dlka.android.apps.smarttransport.AboutActivity"
                 android:label="@string/title_activity_about" >
         </activity>
 
         <activity
-                android:name="org.cirrus.mobi.smarttransport.DonateThanksActivity"
+                android:name="com.dlka.android.apps.smarttransport.DonateThanksActivity"
                 android:label="@string/title_activity_donate_thanks" >
         </activity>
 
-        <service android:name="org.cirrus.mobi.smarttransport.SmartTransportExtensionService" />
+        <service android:name="com.dlka.android.apps.smarttransport.SmartTransportExtensionService" />
 
         <receiver android:name=".ExtensionReceiver" >
             <intent-filter>
